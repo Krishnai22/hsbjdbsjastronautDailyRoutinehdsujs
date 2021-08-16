@@ -56,18 +56,13 @@ function draw() {
   if(keyDown("LEFT_ARROW")){
     astronaut.addAnimation("eating", eat);
     astronaut.changeAnimation("eating");
-    astronaut.x = 150;
-    astronaut.y = 350;
-    astronaut.velocityX = 0.5;
-    astronaut.velocityY = 0.5;
+    
   }
   
   if(keyDown("RIGHT_ARROW")){
     astronaut.addAnimation("bathing", bath);
     astronaut.changeAnimation("bathing");
-    astronaut.x = 300;
-    astronaut.velocityX = 0;
-    astronaut.velocityY = 0;
+    
   }
 
   if(keyDown("m")){
